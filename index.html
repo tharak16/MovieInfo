@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-box" id="main-box">
+        <div class="search-box" id="search-box">
+            <input type="text" name="movie-name" id="movie-name" class="movie-name">
+            <button type="button" class="search-btn" id="search-btn" onclick="getDetails()">Search Movie</button>
+        </div>
+
+        <div class="movie-data">
+            <div class="info-box" id="info-box">
+                <div class="title-box" id="title-box">
+                    <p class="title-data" id="title-data"></p>
+                </div>
+                <div class="released-box data-box" id="released-box">
+                    <p class="released-title title" id="released-title">Released Date:</p>
+                    <p class="released-data data" id="released-data"></p>
+                </div>
+                <div class="director-box data-box" id="director-box">
+                    <p class="director-title title" id="director-title">Director:</p>
+                    <p class="director-data data" id="director-data"></p>
+                </div>
+                <div class="actors-box data-box" id="actors-box">
+                    <p class="actors-title title" id="actors-title">Actors:</p>
+                    <p class="actors-data data" id="actors-data"></p>
+                </div>
+                <div class="genre-box data-box" id="genre-box">
+                    <p class="genre-title title" id="genre-title">Genre:</p>
+                    <p class="genre-data data" id="genre-data"></p>
+                </div>
+                <div class="language-box data-box" id="language-box">
+                    <p class="language-title title" id="language-title">Language:</p>
+                    <p class="language-data data" id="language-data"></p>
+                </div>
+                <div class="rating-box data-box" id="rating-box">
+                    <p class="rating-title title" id="rating-title">IMDB Rating:</p>
+                    <p class="rating-data data" id="rating-data"></p>
+                </div>
+                <div class="collection-box data-box" id="collection-box">
+                    <p class="collection-title title" id="collection-title">Box Office:</p>
+                    <p class="collection-data data" id="collection-data"></p>
+                </div>
+                <div class="award-box data-box" id="award-box">
+                    <p class="award-title title" id="award-title">Awards:</p>
+                    <p class="award-data data" id="award-data"></p>
+                </div>
+            </div>
+            <div class="img-box">
+                <div class="poster-box" id="poster-box">
+                    <img src="" alt="" class="poster-data" id="poster-data">
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
